@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'discovery_v1'
+
+print 'API name [sheets]: '
+api_name = gets.chomp
+api_name = 'sheets' if api_name.empty?
+
+print 'API version [v4]: '
+api_version = gets.chomp
+api_version = 'v4' if api_version.empty?
+
+discovery_service = DiscoveryV1.discovery_service
+rest_description = discovery_service.get_rest_api(api_name, api_version)
+
+pp DiscoveryV1.object_schema_names(rest_description:)

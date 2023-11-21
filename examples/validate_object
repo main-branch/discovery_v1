@@ -1,0 +1,32 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'discovery_v1'
+
+batch_update_spreadsheet_request = {
+  requests: [
+    {
+      update_cells: {
+        rows: [
+          { values: [{ user_entered_value: { string_value: 'A' } }] }
+        ],
+        fields: '*',
+        start: { sheet_id: 0, column_index: 'A', row_index: 1 }
+      }
+    }
+  ],
+  response_include_grid_data: false
+}
+
+api_name = 'sheets'
+api_version = 'v4'
+discovery_service = DiscoveryV1.discovery_service
+rest_description = discovery_service.get_rest_api(api_name, api_version)
+schema_name = 'batch_update_spreadsheet_request'
+
+begin
+  DiscoveryV1.validate_object(rest_description:, schema_name:, object: batch_update_spreadsheet_request)
+  puts 'Object is valid'
+rescue RuntimeError => e
+  puts e.message
+end
