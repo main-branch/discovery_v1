@@ -19,6 +19,8 @@ Unofficial helpers and extensions for the Google Discovery V1 API
   * [Obtaining a DiscoveryService](#obtaining-a-discoveryservice)
   * [Downloading an API discovery document](#downloading-an-api-discovery-document)
   * [Validating API objects](#validating-api-objects)
+  * [Google Extensions](#google-extensions)
+    * [RestDescription Extensions](#restdescription-extensions)
 * [Development](#development)
 * [Contributing](#contributing)
 * [License](#license)
@@ -158,6 +160,26 @@ schema can be listed using
 will raise a RuntimeError noting where the object structure did not conform to
 the schema. `RuntimeError#message` will give details about where the structure did
 not conform.
+
+### Google Extensions
+
+The `DiscoveryV1::GoogleExtensions` module provides extensions to the `Google::Apis::DiscoveryV1`
+modules and classes to simplify use of the SheetsV4 API.
+
+These extensions are not loaded by default and are not required to use other parts
+of this Gem. To enable these extension, you must:
+
+```Ruby
+require 'discovery_v1/google_extensions'
+```
+
+#### RestDescription Extensions
+
+Convenience methods are been added to `Google::Apis::DiscoveryV1::RestDescription`:
+* [RestDescription#object_schema_names](https://rubydoc.info/gems/discovery_v1/Google/Apis/DiscoveryV1/RestDescription#object_schema_names-instance_method):
+  The names of the schemas defined by this `RestDescription`.
+* [RestDescription#validate_object](https://rubydoc.info/gems/discovery_v1/Google/Apis/DiscoveryV1/RestDescription#validate_object-instance_method):
+  Raises an error if the given object does not conform to the named schema.
 
 ## Development
 
