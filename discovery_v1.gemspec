@@ -46,10 +46,10 @@ Gem::Specification.new do |spec|
     spec.add_development_dependency 'yardstick', '~> 0.9'
   end
 
-  spec.add_runtime_dependency 'activesupport', '~> 7.0'
+  spec.add_dependency 'activesupport', '~> 7.0'
   spec.add_development_dependency 'github_pages_rake_tasks', '~> 0.1'
-  spec.add_runtime_dependency 'google-apis-discovery_v1', '~> 0.14'
-  spec.add_runtime_dependency 'json_schemer', '~> 2.0'
+  spec.add_dependency 'google-apis-discovery_v1', '~> 0.14'
+  spec.add_dependency 'json_schemer', '~> 2.0'
 
   spec.metadata['rubygems_mfa_required'] = 'true'
 end
