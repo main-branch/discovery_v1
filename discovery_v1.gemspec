@@ -33,10 +33,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler-audit', '~> 0.9'
-  spec.add_development_dependency 'create_github_release', '~> 1.0'
-  spec.add_development_dependency 'rake', '~> 13.0'
-  spec.add_development_dependency 'rspec', '~> 3.12'
-  spec.add_development_dependency 'rubocop', '~> 1.57'
+  spec.add_development_dependency 'create_github_release', '~> 1.5'
+  spec.add_development_dependency 'rake', '~> 13.2'
+  spec.add_development_dependency 'rspec', '~> 3.13'
+  spec.add_development_dependency 'rubocop', '~> 1.66'
   spec.add_development_dependency 'simplecov', '~> 0.22'
   spec.add_development_dependency 'simplecov-lcov', '~> 0.8'
 
@@ -48,8 +48,8 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'activesupport', '~> 7.0'
   spec.add_development_dependency 'github_pages_rake_tasks', '~> 0.1'
-  spec.add_dependency 'google-apis-discovery_v1', '~> 0.14'
-  spec.add_dependency 'json_schemer', '~> 2.0'
+  spec.add_dependency 'google-apis-discovery_v1', '~> 0.19'
+  spec.add_dependency 'json_schemer', '~> 2.3'
 
   spec.metadata['rubygems_mfa_required'] = 'true'
 end
