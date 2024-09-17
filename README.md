@@ -6,6 +6,7 @@
 [![Build Status](https://github.com/main-branch/discovery_v1/actions/workflows/continuous_integration.yml/badge.svg)](https://github.com/main-branch/discovery_v1/actions/workflows/continuous_integration.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/aeebc016487c5cad881e/maintainability)](https://codeclimate.com/github/main-branch/discovery_v1/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/aeebc016487c5cad881e/test_coverage)](https://codeclimate.com/github/main-branch/discovery_v1/test_coverage)
+[![Slack](https://img.shields.io/badge/slack-main--branch/discovery__v1-yellow.svg?logo=slack)](https://main-branch.slack.com/archives/C07MT5MG7V1)
 
 Unofficial helpers and extensions for the Google Discovery V1 API
 
