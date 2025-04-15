@@ -163,6 +163,7 @@ module DiscoveryV1
       end
 
       REF_KEY = '$ref'
+      private_constant :REF_KEY
 
       # A visitor for the schema object tree that fixes up the tree as it goes
       # @return [void]
