@@ -4,6 +4,14 @@ Changes for each release are listed in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/) for its releases.
 
+## [0.2.1](https://github.com/main-branch/discovery_v1/compare/v0.2.0...v0.2.1) (2025-04-16)
+
+
+### Bug Fixes
+
+* Automate commit-to-publish workflow ([ca3af76](https://github.com/main-branch/discovery_v1/commit/ca3af7699bc78d3631b3c949eed5c828cd9f3db8))
+* Make REF_KEY a private constant in LoadSchemas ([33bfef2](https://github.com/main-branch/discovery_v1/commit/33bfef26b5e88661a1c21984dbeb91ac1b319962))
+
 ## v0.2.0 (2024-10-11)
 
 [Full Changelog](https://github.com/main-branch/discovery_v1/compare/v0.1.0..v0.2.0)
