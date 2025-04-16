@@ -1,0 +1,22 @@
+{
+  "bootstrap-sha": "5bbdd0c98c6c2593e16f69e8d129f6f5603fce36",
+  "packages": {
+    ".": {
+      "release-type": "ruby",
+      "package-name": "discovery_v1",
+      "changelog-path": "CHANGELOG.md",
+      "version-file": "lib/discovery_v1/version.rb",
+      "bump-minor-pre-major": true,
+      "bump-patch-for-minor-pre-major": true,
+      "draft": false,
+      "prerelease": false,
+      "include-component-in-tag": false
+    }
+  },
+  "plugins": [
+    {
+      "type": "sentence-case"
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
+}
