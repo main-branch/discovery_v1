@@ -4,6 +4,13 @@ Changes for each release are listed in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/) for its releases.
 
+## [0.2.2](https://github.com/main-branch/discovery_v1/compare/v0.2.1...v0.2.2) (2025-04-17)
+
+
+### Bug Fixes
+
+* Do not trigger build workflows after merging to main or for release PRs ([edd8005](https://github.com/main-branch/discovery_v1/commit/edd80050002dc3ce678c3e529d0a6ea8509334f4))
+
 ## [0.2.1](https://github.com/main-branch/discovery_v1/compare/v0.2.0...v0.2.1) (2025-04-16)
 
 
