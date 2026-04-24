@@ -4,6 +4,13 @@ Changes for each release are listed in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/) for its releases.
 
+## [0.2.4](https://github.com/main-branch/discovery_v1/compare/v0.2.3...v0.2.4) (2026-04-24)
+
+
+### Other Changes
+
+* **dependencies:** Update dependencies for all GitHub Actions workflows ([a0a5ae9](https://github.com/main-branch/discovery_v1/commit/a0a5ae9ad6307f810a237ecf9006b112c6871148))
+
 ## [0.2.3](https://github.com/main-branch/discovery_v1/compare/v0.2.2...v0.2.3) (2025-04-18)
 
 
